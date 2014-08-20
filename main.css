@@ -16,7 +16,7 @@ margin:0 auto;
   /* for Mozilla, Firefox */
   -moz-opacity:0.5;
 }
-.picture-change {
+.picture:hover {
    background-color:FFFFFF;
   /* for IE */
   filter:alpha(opacity=100);
