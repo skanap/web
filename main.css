@@ -7,6 +7,15 @@ color:#eeeeee;
 width:650px;
 margin:0 auto;
 }
+.pictuer {
+   background-color:FFFFFF;
+  /* for IE */
+  filter:alpha(opacity=50);
+  /* CSS3 standard */
+  opacity:0.5;
+  /* for Mozilla, Firefox */
+  -moz-opacity:0.5;
+}
 .title {
 text-align:center;
 padding-left:60px;
