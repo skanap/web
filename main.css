@@ -16,6 +16,15 @@ margin:0 auto;
   /* for Mozilla, Firefox */
   -moz-opacity:0.5;
 }
+.picture-change {
+   background-color:FFFFFF;
+  /* for IE */
+  filter:alpha(opacity=100);
+  /* CSS3 standard */
+  opacity:1;
+  /* for Mozilla, Firefox */
+  -moz-opacity:1;
+}
 .title {
 text-align:center;
 padding-left:60px;
