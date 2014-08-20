@@ -11,7 +11,10 @@
 <script>
 $(function(){
 $("#p1").mouseenter(function(){
-  $(".picture").toggleClass('picture-change');
+  $(".picture").toggleClass("picture-change");
+});
+$("#p1").mouseleave(function(){
+$(".picture-change").toggleClass(".picture");
 });
 });
 </script>
