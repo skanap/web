@@ -16,7 +16,7 @@ margin:0 auto;
   /* for Mozilla, Firefox */
   -moz-opacity:0.5;
   
-  padding:0 auto;
+  border:0 auto;
 }
 .picture:hover {
    background-color:FFFFFF;
