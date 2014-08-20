@@ -25,22 +25,7 @@ margin:0 auto;
   /* for Mozilla, Firefox */
   -moz-opacity:1;
 }
-.title {
-text-align:center;
-padding-left:60px;
-margin-bottom:120px;
-}
-section {
-margin-bottom: 60px;
-}
-.title-img {
-text-align:justify;
-}
-.section-title {
-background-image:url('line.png') ;
-background-repeat:no-repeat;
-background-position: left bottom;
-}
+
 footer {
 margin-bottom:200px;
 text-align:center;
