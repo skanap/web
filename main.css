@@ -65,6 +65,14 @@ color:white;
 }
 
 
+aside a {
+color:white;
+}
+aside a:hover {
+color:royalblue;
+}
+
+
 
 
 .link_movie{
@@ -108,4 +116,5 @@ color:white;
   padding-right: 5px;  /*讓標題與連結中間有空隙*/
   color:black;
 }
+
 
