@@ -5,14 +5,37 @@
 <title>--環太平洋--音樂欣賞</title>
 <link rel="stylesheet" href="normalize.css">
 <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<link rel="stylesheet" href="animate.min.css">
+<script>
+$(function(){
+  $("#more").button();
+  $("#vedio").hide();
+  
+  $("#more").click(function(){
+    $("#vedio").show('animated fadeInDown');
+  });
+  
+});
+</script>
+
 </head>
 
 <body class="music">
 
-<div class="youtube" align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/Zc85RugOqMc?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
+<div class="audio">
+Pacific Rim Ramin Djawadi (Pacific Rim OST)
+<audio controls loop>
+  <source src="1.mp3" type="audio/mpeg">
+ </audio>
+<br><br>
+<button id="more">想聽更多?</button><br><br><br>
 
+<iframe id="vedio" width="640" height="360" src="//www.youtube.com/embed/vJFJ_uGlMVY?list=PLHuwLu52LzUd6Ezb9-xGFbgyRUFwVeM3d" frameborder="0" allowfullscreen></iframe>
+
+</div>
 <aside>
 <div class="link_movie">
 <span id="title">電影介紹</span>
