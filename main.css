@@ -37,6 +37,10 @@ body.picture {
   margin: 0;
 }
 
+img.photo:hover {
+  width:500px;
+  height:200px;
+}
 
 #point {
   background-color: black;
