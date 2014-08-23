@@ -10,12 +10,28 @@ body.film {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  color:red;
+}
+
+body.music {
+  background-image: url(http://pic.pimg.tw/linatas/1373980027-3962992053.jpg);
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color:orange;
 }
 
 .container {
 width:600px;
 margin:70px auto ;
 }
+
+.audio {
+width:600px;
+margin:70px 20px ;
+}
+
 
 .youtube{margin:150px auto;}
 
