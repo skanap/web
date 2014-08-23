@@ -43,8 +43,8 @@ img.photo {
 }
 
 img.photo:active {
-  width:500px;
-  height:600px;
+  width:600px;
+  height:550px;
 }
 
 #point {
