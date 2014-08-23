@@ -5,12 +5,41 @@
 <title>--環太平洋--電影大綱</title>
 <link rel="stylesheet" href="normalize.css">
 <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<link rel="stylesheet" href="animate.css">
+<script>
+$(function(){
+
+  $("#show").hide();
+  
+  $("#enter").mouseenter(function(){
+    $("#point").hide();
+    $("#show").show('animated fadeInDown');
+  });
+  
+});
+</script>
 </head>
 
 <body class="movie">
 
-<div class="youtube" align="center">
-<iframe width="640" height="360" src="//www.youtube.com/embed/Zc85RugOqMc?rel=0" frameborder="0" allowfullscreen></iframe>
+<div id="enter" align="center">
+<h2><font size="6">電影大綱</font></h2>
+</div>
+<div id="point" align="center">
+<h2>覺得沒有東西嗎? 請去碰碰標題-"電影大綱"</h2>
+</div>
+
+<div class="show_bg">
+<div id="show">
+<font size="5">
+　　名為「怪獸」的可怕怪物大軍突然冒出海面，向人類居住的城市進軍，一場歷時數年，奪走數以百萬計人類生命及財產的長期戰爭於焉展開。<br>
+　　為了對抗這些巨大怪獸，人類啟動代號「賊鷗」(Jaeger)的作戰計劃，也就是巨大機械人防衛作戰計劃。這是由兩名腦部神經網路互相串連的操縱者同步操作(又稱神經元合體)的戰鬥機械人，不過即使是人類最先進的巨大戰鬥機械人，在面對冷酷又殘暴的怪獸時，也被打得潰不成軍。<br>
+　　在瀕臨挫敗之際，保衛人類的勢力只剩下最後兩名看似沒有勝算的人，一個是曾經灰心喪志的前機械人操縱者（查理漢納 飾），另一個是從未經歷過戰火試煉的菜鳥受訓員（菊地凜子 飾），他們聯手操縱早已過時的巨大機械人：吉普賽危機，一同挺身為人類抵抗世界末日的來臨。
+</font>
+</div>
 </div>
 
 <aside>
