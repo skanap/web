@@ -1,0 +1,181 @@
+@charset: utf-8;
+body {
+background-color:black;
+color:#eeeeee;
+}
+
+body.film {
+  background-image: url(film.jpg);
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color:red;
+}
+
+body.music {
+  background-image: url(http://pic.pimg.tw/linatas/1373980027-3962992053.jpg);
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color:orange;
+}
+
+.container {
+width:600px;
+margin:70px auto ;
+}
+
+.audio {
+width:600px;
+margin:70px 20px ;
+}
+
+
+.youtube{margin:150px auto;}
+
+.picture {
+background-color:FFFFFF;
+/* for IE */
+filter:alpha(opacity=50);
+/* CSS3 standard */
+opacity:0.5;
+/* for Mozilla, Firefox */
+-moz-opacity:0.5;
+border:0 auto;
+}
+
+.picture:hover {
+background-color:FFFFFF;
+/* for IE */
+filter:alpha(opacity=100);
+/* CSS3 standard */
+opacity:1;
+/* for Mozilla, Firefox */
+-moz-opacity:1;
+}
+
+
+.picture {
+   background-color:FFFFFF;
+  /* for IE */
+  filter:alpha(opacity=50);
+  /* CSS3 standard */
+  opacity:0.5;
+  /* for Mozilla, Firefox */
+  -moz-opacity:0.5;
+  
+  border:0 auto;
+}
+.picture:hover {
+   background-color:FFFFFF;
+  /* for IE */
+  filter:alpha(opacity=100);
+  /* CSS3 standard */
+  opacity:1;
+  /* for Mozilla, Firefox */
+  -moz-opacity:1;
+}
+
+footer {
+  margin-bottom:80px;
+  text-align:center;
+}
+footer ul li {
+  width: 120px;
+  display: inline-block;
+}
+footer a {
+  color:gray;
+}
+footer a:hover {
+  color:white;
+}
+
+
+aside a {
+color:white;
+}
+aside a:hover {
+color:royalblue;
+}
+
+
+
+
+.link_movie{
+  position: fixed;  /*固定在網頁上不隨卷軸移動-fixed，若要隨卷軸移動用absolute*/
+  top: 35%;  /*設置垂直位置*/
+  right: -140px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  background: #ffffff;  /*背景顏色*/
+  padding: 10px 15px;
+  border-radius: 10px;  /*IE圓角*/
+  -moz-border-radius: 10px;  /*Firefox圓角*/
+  -webkit-border-radius: 10px; /*Chrome圓角*/
+  color:black;
+}
+
+.link_movie:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+  right: -10px;
+  transition: right 0.4s ease-out;    /*IE慢出*/
+  -webkit-transition: right 0.4s ease-out;  /*Chrome慢出*/
+  -moz-transition: right 0.4s ease-out;  /*Firefox慢出*/
+  -o-transition: right 0.4s ease-out;   /*Opera慢出*/
+}
+
+.link_movie #title{
+  padding-right: 5px;  /*讓標題與連結中間有空隙*/
+  color:black;
+}
+
+.link_about{
+  position: fixed;  /*固定在網頁上不隨卷軸移動-fixed，若要隨卷軸移動用absolute*/
+  top: 45%;  /*設置垂直位置*/
+  right: -155px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  background: #ffffff;  /*背景顏色*/
+  padding: 10px 15px;
+  border-radius: 10px;  /*IE圓角*/
+  -moz-border-radius: 10px;  /*Firefox圓角*/
+  -webkit-border-radius: 10px; /*Chrome圓角*/
+  color:black;
+}
+
+.link_about:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+  right: -10px;
+  transition: right 0.4s ease-out;    /*IE慢出*/
+  -webkit-transition: right 0.4s ease-out;  /*Chrome慢出*/
+  -moz-transition: right 0.4s ease-out;  /*Firefox慢出*/
+  -o-transition: right 0.4s ease-out;   /*Opera慢出*/
+}
+
+.link_about #title{
+  padding-right: 5px;  /*讓標題與連結中間有空隙*/
+  color:black;
+}
+
+
+.link_index{
+  position: fixed;  /*固定在網頁上不隨卷軸移動-fixed，若要隨卷軸移動用absolute*/
+  top: 55%;  /*設置垂直位置*/
+  right: -50px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  background: #ffffff;  /*背景顏色*/
+  padding: 10px 15px;
+  border-radius: 10px;  /*IE圓角*/
+  -moz-border-radius: 10px;  /*Firefox圓角*/
+  -webkit-border-radius: 10px; /*Chrome圓角*/
+  color:black;
+}
+
+.link_index:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+  right: -10px;
+  transition: right 0.4s ease-out;    /*IE慢出*/
+  -webkit-transition: right 0.4s ease-out;  /*Chrome慢出*/
+  -moz-transition: right 0.4s ease-out;  /*Firefox慢出*/
+  -o-transition: right 0.4s ease-out;   /*Opera慢出*/
+}
+
+.link_index #title{
+  padding-right: 5px;  /*讓標題與連結中間有空隙*/
+  color:black;
+}
