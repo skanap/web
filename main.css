@@ -22,6 +22,44 @@ body.music {
   color:orange;
 }
 
+body.movie {
+  background-image: url(http://pic1.win4000.com/wallpaper/e/52085c59b025b.jpg);
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: orange;
+}
+
+body.picture {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+
+#point {
+  background-color: black;
+  background: rgba(0,0,0,0.5);
+  color: red;
+}
+
+#show {
+  width: 600px;
+  margin: 70px auto ;
+  color: yellow;
+}
+
+#enter {
+  width: 140px;
+  height: 40px;
+  margin: 50px auto ;
+}
+
+.show_bg {
+  background: rgba(255,0,0,0.4);
+}
+
 .container {
 width:600px;
 margin:70px auto ;
@@ -56,27 +94,6 @@ opacity:1;
 -moz-opacity:1;
 }
 
-
-.picture {
-   background-color:FFFFFF;
-  /* for IE */
-  filter:alpha(opacity=50);
-  /* CSS3 standard */
-  opacity:0.5;
-  /* for Mozilla, Firefox */
-  -moz-opacity:0.5;
-  
-  border:0 auto;
-}
-.picture:hover {
-   background-color:FFFFFF;
-  /* for IE */
-  filter:alpha(opacity=100);
-  /* CSS3 standard */
-  opacity:1;
-  /* for Mozilla, Firefox */
-  -moz-opacity:1;
-}
 
 footer {
   margin-bottom:80px;
