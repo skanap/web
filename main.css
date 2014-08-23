@@ -38,8 +38,13 @@ body.picture {
 }
 
 img.photo:active {
-  width:500px;
+  width:350px;
   height:200px;
+}
+
+img.photo:active {
+  width:800px;
+  height:600px;
 }
 
 #point {
