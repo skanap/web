@@ -37,13 +37,13 @@ body.picture {
   margin: 0;
 }
 
-img.photo:active {
+img.photo {
   width:350px;
   height:200px;
 }
 
 img.photo:active {
-  width:800px;
+  width:500px;
   height:600px;
 }
 
