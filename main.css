@@ -38,8 +38,8 @@ body.picture {
 }
 
 img.photo {
-  width:350px;
-  height:200px;
+  width:300px;
+  height:180px;
 }
 
 img.photo:active {
